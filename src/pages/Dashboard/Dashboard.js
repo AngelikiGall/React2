@@ -35,6 +35,7 @@ const Dashboard = () => {
           )}
         </tbody>
       </Table>
+      <button type="button" class="btn btn-primary">View all movies</button>
     </div>
   );
 };
