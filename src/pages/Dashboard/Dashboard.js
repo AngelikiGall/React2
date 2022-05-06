@@ -2,9 +2,17 @@ import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
 import { getMovies } from "../../api/movies";
 import { Table, Spinner } from "reactstrap";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const { status, data: movies } = useQuery("movies", getMovies);
+
+  const navigate = useNavigate();
+
+
+  const goToMoviesPage = () => {
+    navigate("/movies");
+  };
 
   return (
     <div>
@@ -35,6 +43,7 @@ const Dashboard = () => {
           )}
         </tbody>
       </Table>
+      <button type="button" class="btn btn-primary" onClick={goToMoviesPage}>View all movies</button>
     </div>
   );
 };
