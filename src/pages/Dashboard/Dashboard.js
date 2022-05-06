@@ -10,9 +10,9 @@ const Dashboard = () => {
   const navigate = useNavigate();
 
 
- const goToMoviesPage = () => {
- navigate("/movies");
- };
+  const goToMoviesPage = () => {
+    navigate("/movies");
+  };
 
   return (
     <div>

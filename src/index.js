@@ -8,6 +8,7 @@ import Movie from "./pages/Movie/Movie";
 import Error404 from "./pages/Error404/Error404";
 import Header from "./components/Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Movies from "./pages/Movie/Movies";
 
 const queryClient = new QueryClient();
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -21,7 +22,7 @@ root.render(
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/movies/:movieId" element={<Movie />} />
-          <Route path="/movies" element={<h1>Movies</h1>} />
+          <Route path="/movies" element={<Movies />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </BrowserRouter>
