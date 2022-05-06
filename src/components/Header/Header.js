@@ -26,6 +26,11 @@ const Header = () => {
               All Movies
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink tag={Link} to="/add-movie">
+              Add Movie
+            </NavLink>
+          </NavItem>
         </Nav>
       </Collapse>
     </Navbar>
