@@ -1,0 +1,58 @@
+[
+  {
+    "id": 287,
+    "gender": "male",
+    "movies": [16869, 550, 807],
+    "name": "Brad Pitt",
+    "age": 57,
+    "profile_path": "https://image.tmdb.org/t/p/w500/oTB9vGIBacH5aQNS0pUM74QSWuf.jpg"
+  },
+  {
+    "id": 819,
+    "gender": "male",
+    "movies": [73, 550],
+    "name": "Edward Norton",
+    "age": 51,
+    "profile_path": "https://image.tmdb.org/t/p/w500/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg"
+  },
+  {
+    "id": 139,
+    "gender": "female",
+    "movies": [24, 680],
+    "name": "Uma Thurman",
+    "age": 50,
+    "profile_path": "https://image.tmdb.org/t/p/w500/tHa7u4ScCm9hwSbwodzj8Jmy3io.jpg"
+  },
+  {
+    "id": 3084,
+    "gender": "male",
+    "movies": [238],
+    "name": "Marlon Brando",
+    "age": "-",
+    "profile_path": "https://image.tmdb.org/t/p/w500/fuTEPMsBtV1zE98ujPONbKiYDc2.jpg"
+  },
+  {
+    "id": 1158,
+    "gender": "male",
+    "movies": [238, 240],
+    "name": "Al Pacino",
+    "age": 81,
+    "profile_path": "https://image.tmdb.org/t/p/w500/fMDFeVf0pjopTJbyRSLFwNDm8Wr.jpg"
+  },
+  {
+    "id": 380,
+    "gender": "male",
+    "movies": [240],
+    "name": "Robert De Niro",
+    "age": 77,
+    "profile_path": "https://image.tmdb.org/t/p/w500/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+  },
+  {
+    "id": 6384,
+    "gender": "male",
+    "movies": [603],
+    "name": "Keanu Reeves",
+    "age": 56,
+    "profile_path": "https://image.tmdb.org/t/p/w500/rRdru6REr9i3WIHv2mntpcgxnoY.jpg"
+  }
+]
