@@ -1,0 +1,29 @@
+.title {
+  
+}
+
+.movie-container {
+    padding: 16px;
+}
+
+.label {
+    margin-left: 16px;
+}
+
+.movie-title {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.edit {
+    display: flex;
+    margin-left: auto;
+}
+
+.delete {
+    margin-right: 4px;
+}
+
+.edit-btn {
+    margin-left: 4px;
+}

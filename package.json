@@ -11,6 +11,7 @@
     "react-query": "^3.38.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-star-ratings": "^2.3.0",
     "reactstrap": "^9.0.2"
   },
   "scripts": {

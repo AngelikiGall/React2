@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Movie from "./pages/Movie/Movie";
+import AddMovie from "./pages/Movie/AddMovie";
 import Error404 from "./pages/Error404/Error404";
 import Header from "./components/Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,6 +22,7 @@ root.render(
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/movies/:movieId" element={<Movie />} />
+          <Route path="/add-movie" element={<AddMovie />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </BrowserRouter>
