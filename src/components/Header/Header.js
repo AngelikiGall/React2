@@ -21,6 +21,11 @@ const Header = () => {
               Dashboard
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink tag={Link} to="/movies">
+              All Movies
+            </NavLink>
+          </NavItem>
         </Nav>
       </Collapse>
     </Navbar>
